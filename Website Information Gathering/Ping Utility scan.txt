@@ -1,0 +1,11 @@
+From this we can determine how many packet fragments the target website can accept.
+
+cmd  --> ping target.com -f -l 1500 
+ -f means fragmentation flag
+ -l means the size of the packet to be sent
+
+Here we have to manually change the size of the fragment to find the max fragment size we can send
+
+typically it is 1444
+
+ping target.com -f -l 1444

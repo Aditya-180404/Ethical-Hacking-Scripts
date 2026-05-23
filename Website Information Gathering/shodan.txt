@@ -1,0 +1,9 @@
+Browser  --> Shodan.io  -->  search by the company name , ip address, domain name or email address
+
+Link -> https://www.shodan.io/
+
+use case:
+    1.we can find the company or ip or domain has what things in the shodan
+    2.we can find the vulnerable server and then we can do the further attack on that server
+    3.we can find the sensitive information in the shodan and then we can use that
+

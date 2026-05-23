@@ -1,0 +1,10 @@
+Browser  -->  netcraft.com -->  enter the domain name  -->  enter
+
+Link -> https://sitereport.netcraft.com/
+
+From here we can see 
+    . Site Information
+    . Hosting History
+    . SSL Information
+    . DNS Information
+    . Server Information
