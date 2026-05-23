@@ -11,3 +11,4 @@ Use Cases:
     6. To find the phone number of the target website owner
     7. To find the social media profiles of the target website owner
     
+It is besically an organisd form of WhoIs search
