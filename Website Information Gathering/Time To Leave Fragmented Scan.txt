@@ -1,7 +1,7 @@
 By this we can check time to send a fragmented packet from sender to target.Basically we can check the time interval  between two packets.
 
 cmd  --> ping target.com -i 1
-    -i means the time interval between two packets
+    -i means the time interval between two packets ot TTL (Time Ti Live)
 
 Here we have to manually search the minimum value of i .. Typically it is 7
 
