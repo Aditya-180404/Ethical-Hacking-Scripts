@@ -1,0 +1,13 @@
+Browser  -->  website informer  -->  search by domain name
+
+Link -> https://website.informer.com
+
+Use Cases:
+    1. To find the IP address of the target website
+    2. To find the location of the target website
+    3. To find the hosting provider of the target website
+    4. To find the traffic rank of the target website
+    5. To find the email address of the target website owner
+    6. To find the phone number of the target website owner
+    
+    
