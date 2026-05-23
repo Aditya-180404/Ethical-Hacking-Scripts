@@ -1,0 +1,9 @@
+Browser  -->  NAPALM FTP INDEXER  -->  search by the company name , ip address, domain name or email address to find the FTP servers associated with the target organization. This tool can help you identify potential entry points for further investigation and information gathering.
+
+Link -> https://www.searchftps.net/
+
+
+use case:
+    1.we can the company or ip or domain has what things in the ftp server
+    2.we can find the vulnerable ftp server and then we can do the further attack on that ftp server
+    3.we can find the sensitive information in the ftp server and then we can use that
