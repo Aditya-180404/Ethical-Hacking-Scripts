@@ -4,8 +4,8 @@ This repository contains quick reference notes for website information gathering
 
 ## Contents
 
-- `Website Information Gathering/WhoIs.txt` - Notes on how to use WHOIS lookup services to collect domain registration, registrar, and contact information.
-- `Website Information Gathering/Youtube Data Viewer.txt` - Notes on how to use YouTube Data Viewer to inspect public video metadata such as view counts, thumbnails, tags, and estimated revenue.
+- [`Website Information Gathering/WhoIs.txt`](Website%20Information%20Gathering/WhoIs.txt) - Notes on how to use WHOIS lookup services to collect domain registration, registrar, and contact information.
+- [`Website Information Gathering/Youtube Data Viewer.txt`](Website%20Information%20Gathering/Youtube%20Data%20Viewer.txt) - Notes on how to use YouTube Data Viewer to inspect public video metadata such as view counts, thumbnails, tags, and estimated revenue.
 
 ## Purpose
 
@@ -13,9 +13,9 @@ These notes are designed as a lightweight reference for reconnaissance tasks whe
 
 ## How to Use
 
-1. Open the `Website Information Gathering` folder.
-2. Read `WhoIs.txt` for domain registration and contact lookup guidance.
-3. Read `Youtube Data Viewer.txt` for instructions on checking YouTube video metadata.
+1. Open the [`Website Information Gathering`](Website%20Information%20Gathering/) folder.
+2. Read [`WhoIs.txt`](Website%20Information%20Gathering/WhoIs.txt) for domain registration and contact lookup guidance.
+3. Read [`Youtube Data Viewer.txt`](Website%20Information%20Gathering/Youtube%20Data%20Viewer.txt) for instructions on checking YouTube video metadata.
 
 ## Tools Mentioned
 
