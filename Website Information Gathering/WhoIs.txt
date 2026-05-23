@@ -1,0 +1,84 @@
+Browser  -->  whois.com  -->  enter the domain name  -->  enter
+
+Link -> https://www.whois.com/whois/
+
+
+
+From here we can see 
+	. Domain Information
+	. Registrar Information
+	. Registrant Contact
+	. Technical Contact
+
+
+ex. for flipkart.com
+flipkart.com
+Updated 5 hours ago
+Domain Information
+Domain:
+flipkart.com
+Registered On:
+2007-06-03
+Expires On:
+2026-06-03
+Updated On:
+2025-06-04
+Status:
+client delete prohibited
+client renew prohibited
+client transfer prohibited
+client update prohibited
+Name Servers:
+sdns14.ultradns.biz
+sdns14.ultradns.com
+sdns14.ultradns.net
+sdns14.ultradns.org
+Registrar Information
+Registrar:
+GoDaddy.com, LLC
+IANA ID:
+146
+Email:
+abuse@godaddy.com
+Abuse Email:
+abuse@godaddy.com
+Abuse Phone:
+480-624-2505
+Registrant Contact
+Name:
+Registration Private
+Organization:
+Domains By Proxy, LLC
+Street:
+DomainsByProxy.com 100 S. Mill Ave, Suite 1600
+City:
+Tempe
+State:
+Arizona
+Postal Code:
+85281
+Country:
+US
+Phone:
++1.4806242599
+Email:
+https://www.godaddy.com/whois/results.aspx?domain=FLIPKART.COM&action=contactDomainOwner
+Technical Contact
+Name:
+Registration Private
+Organization:
+Domains By Proxy, LLC
+Street:
+DomainsByProxy.com 100 S. Mill Ave, Suite 1600
+City:
+Tempe
+State:
+Arizona
+Postal Code:
+85281
+Country:
+US
+Phone:
++1.4806242599
+Email:
+https://www.godaddy.com/whois/results.aspx?domain=FLIPKART.COM&action=contactDomainOwner

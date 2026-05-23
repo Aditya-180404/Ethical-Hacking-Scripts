@@ -1,0 +1,11 @@
+copy any youtube video link  -->  browser  -->  Youtube data viewer(YTLarge)  -->  paste link  -->  enter
+
+
+
+
+From Here we can see about the details of the youtube video like 
+	. how many viewers have watchet it
+	. how much revenue has generated 
+	. Tags
+	. Thumbneils
+	etc.
