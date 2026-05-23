@@ -9,5 +9,5 @@ Use Cases:
     4. To find the traffic rank of the target website
     5. To find the email address of the target website owner
     6. To find the phone number of the target website owner
-    
+    7. To find the social media profiles of the target website owner
     
