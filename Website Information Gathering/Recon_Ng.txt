@@ -1,0 +1,8 @@
+1. Open Kali Terminal
+2. recon-ng
+3. workspaces create Adi  --> every time during work i have to create a new workspace
+4. workspaces list  --> list of all workspaces
+5. db insert domains --> after this insert the domain name
+6. show domains  -->  to see the domain name
+7. marketplace search  --> to see all modules list
+8. marketplace install all  --> to install all modules
