@@ -8,7 +8,7 @@
 6. show domains  -->  to see the domain name
 7. marketplace search  --> to see all modules list
 8. marketplace install all  --> to install all modules
-
+9. workspaces load Adi --> to load the workspace
 
 
 # WhoIS Scan
