@@ -1,0 +1,2 @@
+Open Nessus  -->  create a new scan  -->  select the type of scan you want to perform (e.g., Basic Network Scan, Web Application Tests, etc.)  -->  configure the scan settings (e.g., target IP address or domain, scan policies, credentials if needed)  -->  save and launch the scan  -->  wait for the scan to complete and review the results for vulnerabilities and security issues.
+
