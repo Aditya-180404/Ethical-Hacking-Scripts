@@ -28,3 +28,8 @@
 1. modules load recon/domains-hosts/certificate_transparency  --> it is used to find subdomains/hosts
 2. run  --> to run the module
 3. back  --> to return to the main menu
+
+## DNS Resolution
+1. modules load recon/domains-hosts/hackertarget  --> it is used to find the dns and ip address of the domain
+2. run  --> to run the module
+3. back  --> to return to the main menu
