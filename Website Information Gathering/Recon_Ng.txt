@@ -16,3 +16,9 @@
 1. modules load recon/domains-hosts/bing_domain_web  --> to load the bing module
 2. run  --> to run the module
 3. back  --> to go back to the main menu
+
+
+## Reverse Scan
+1. modules load recon/hosts-hosts/reverse_resolve
+2. run  --> to run the module
+3. back --> to return to the main menu
