@@ -6,9 +6,13 @@
 6. show domains  -->  to see the domain name
 7. marketplace search  --> to see all modules list
 8. marketplace install all  --> to install all modules
-9. modules load recon/domains-contacts/whois_pocs  --> load the whois module
-10. run  --> run the module
-11. back  --> it is required to run another scan
+
+
+
+# WhoIS Scan
+1. modules load recon/domains-contacts/whois_pocs  --> load the whois module
+2. run  --> run the module
+3. back  --> it is required to run another scan
 
 
 
