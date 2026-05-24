@@ -1,5 +1,7 @@
                                                              RECON NG
 
+
+# Setup
 1. Open Kali Terminal
 2. recon-ng
 3. workspaces create Adi  --> every time during work i have to create a new workspace
