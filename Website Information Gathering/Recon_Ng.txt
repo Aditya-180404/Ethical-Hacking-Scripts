@@ -19,6 +19,12 @@
 
 
 ## Reverse Scan
-1. modules load recon/hosts-hosts/reverse_resolve
+1. modules load recon/hosts-hosts/reverse_resolve  --> it works only on hosts or ip addresses not on domains (like - https://uit.buruniv.ac.in/)
 2. run  --> to run the module
 3. back --> to return to the main menu
+
+
+## Find subdomains/hosts
+1. modules load recon/domains-hosts/certificate_transparency  --> it is used to find subdomains/hosts
+2. run  --> to run the module
+3. back  --> to return to the main menu
