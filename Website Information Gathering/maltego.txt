@@ -1,0 +1,7 @@
+Open Maltego  --> create a new graph  -->  select the type of entities you want to add (e.g., domain, IP address, email address, etc.)  -->  add the entities to the graph  -->  use the various transforms available in Maltego to gather information about the entities (e.g., DNS records, WHOIS information, social media profiles, etc.)  -->  analyze the relationships between the entities and identify potential connections or patterns.
+
+It is used for:
+    1. OSINT (Open Source Intelligence) gathering
+    2. Social media analysis
+    3. Network reconnaissance
+    4. Cyber threat intelligence
