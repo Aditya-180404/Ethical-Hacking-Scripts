@@ -44,8 +44,8 @@
 ## Report Generate
 1. modules load reporting  --> it is used to generate the report of the scan. Here we can generate the report in different formats like html, csv, json, xml etc.
 2. modules load reporting/html  --> it is used to generate the report in html format
-3. options set FILENAME /home/ghost/Documents/New.txt  --> it is used to set the file name and path where the report will be saved
+3. options set FILENAME /home/ghost/Documents/New.html  --> it is used to set the file name and path where the report will be saved
 4. options set CREATOR ADi --> it is used to set the creator name in the report
-5. Options set CUSTOMER UIT  --> it is used to set the customer name in the report
+5. Options set CUSTOMER Saturnx  --> it is used to set the customer name in the report
 6. run  --> to run the module and generate the report
 7. back  --> to return to the main menu
