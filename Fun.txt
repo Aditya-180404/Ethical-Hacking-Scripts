@@ -350,3 +350,440 @@ pokemon-colorscripts -r
 ```
 
 to your `~/.zshrc` for a stylish startup every terminal launch.
+
+
+
+
+# More Fun & “Hacker-Style” Kali Terminal Tools
+
+## 14. `cbonsai`
+
+Generates a growing bonsai tree in terminal.
+
+### Install
+
+```bash
+sudo apt install cbonsai
+```
+
+### Run
+
+```bash
+cbonsai
+```
+
+Live growing mode:
+
+```bash
+cbonsai -l
+```
+
+---
+
+## 15. `tty-clock`
+
+Digital fullscreen terminal clock.
+
+### Install
+
+```bash
+sudo apt install tty-clock
+```
+
+### Run
+
+```bash
+tty-clock -c -C 6 -s
+```
+
+---
+
+## 16. `peaclock`
+
+Cyberpunk-style terminal clock.
+
+### Install
+
+```bash
+sudo apt install peaclock
+```
+
+### Run
+
+```bash
+peaclock
+```
+
+---
+
+## 17. `btop`
+
+Extremely beautiful system monitor.
+
+### Install
+
+```bash
+sudo apt install btop
+```
+
+### Run
+
+```bash
+btop
+```
+
+Looks MUCH better than `htop`.
+
+---
+
+## 18. `ranger`
+
+Terminal file manager.
+
+### Install
+
+```bash
+sudo apt install ranger
+```
+
+### Run
+
+```bash
+ranger
+```
+
+Add image preview:
+
+```bash
+ranger --copy-config=all
+```
+
+---
+
+## 19. `cava`
+
+Music visualizer in terminal.
+
+### Install
+
+```bash
+sudo apt install cava
+```
+
+### Run
+
+```bash
+cava
+```
+
+Play music and watch the bars dance.
+
+---
+
+## 20. `ninvaders`
+
+Space Invaders in terminal.
+
+### Install
+
+```bash
+sudo apt install ninvaders
+```
+
+### Run
+
+```bash
+ninvaders
+```
+
+---
+
+## 21. `nsnake`
+
+Snake game in terminal.
+
+### Install
+
+```bash
+sudo apt install nsnake
+```
+
+### Run
+
+```bash
+nsnake
+```
+
+---
+
+## 22. `moon-buggy`
+
+ASCII moon rover game.
+
+### Install
+
+```bash
+sudo apt install moon-buggy
+```
+
+### Run
+
+```bash
+moon-buggy
+```
+
+---
+
+## 23. `greed`
+
+Tiny addictive terminal game.
+
+### Install
+
+```bash
+sudo apt install greed
+```
+
+### Run
+
+```bash
+greed
+```
+
+---
+
+## 24. `nethack`
+
+Legendary terminal RPG.
+
+### Install
+
+```bash
+sudo apt install nethack-console
+```
+
+### Run
+
+```bash
+nethack
+```
+
+---
+
+## 25. `fortune`
+
+Random funny quotes/messages.
+
+### Install
+
+```bash
+sudo apt install fortune-mod
+```
+
+### Run
+
+```bash
+fortune
+```
+
+Combine with cowsay:
+
+```bash
+fortune | cowsay | lolcat
+```
+
+---
+
+## 26. `xcowsay`
+
+Modern graphical cowsay.
+
+### Install
+
+```bash
+sudo apt install xcowsay
+```
+
+### Run
+
+```bash
+xcowsay "System Hacked"
+```
+
+---
+
+## 27. `pv`
+
+Fake hacking progress bars.
+
+### Install
+
+```bash
+sudo apt install pv
+```
+
+### Example
+
+```bash
+yes | pv | head
+```
+
+---
+
+## 28. `jp2a`
+
+Convert images into terminal ASCII art.
+
+### Install
+
+```bash
+sudo apt install jp2a
+```
+
+### Example
+
+```bash
+jp2a image.jpg
+```
+
+---
+
+## 29. `chafa`
+
+Beautiful image viewer for terminal.
+
+### Install
+
+```bash
+sudo apt install chafa
+```
+
+### Example
+
+```bash
+chafa wallpaper.png
+```
+
+Supports colored output.
+
+---
+
+## 30. `wttr.in`
+
+Weather in terminal.
+
+### Run directly
+
+```bash
+curl wttr.in
+```
+
+Or:
+
+```bash
+curl wttr.in/Kolkata
+```
+
+---
+
+# Funny Fake Hacker Commands
+
+## Fake “Hacking”
+
+```bash
+while true; do echo "HACKING NASA..."; sleep 0.1; done
+```
+
+---
+
+## Infinite Matrix
+
+```bash
+yes "010101010101" | lolcat
+```
+
+---
+
+## CPU Melter (careful)
+
+```bash
+yes > /dev/null
+```
+
+Stop with:
+
+```bash
+CTRL + C
+```
+
+---
+
+## Fake Password Cracking
+
+```bash
+for i in {1..100}; do echo "Bruteforcing password $i%"; sleep 0.05; done
+```
+
+---
+
+# Cool ZSH Startup Ideas
+
+Add this to `~/.zshrc`:
+
+```bash
+clear
+pokemon-colorscripts -r
+fortune | cowsay | lolcat
+figlet KALI | lolcat
+```
+
+OR ultra hacker style:
+
+```bash
+cmatrix &
+neofetch
+```
+
+---
+
+# Advanced Stylish Tools
+
+| Tool      | Description              |
+| --------- | ------------------------ |
+| `eza`     | Better `ls`              |
+| `bat`     | Better `cat`             |
+| `fzf`     | Fuzzy finder             |
+| `zoxide`  | Smarter `cd`             |
+| `dust`    | Better disk usage        |
+| `duf`     | Better df                |
+| `ripgrep` | Fast grep                |
+| `hexyl`   | Beautiful hex viewer     |
+| `micro`   | Friendly terminal editor |
+
+---
+
+# Install Huge Fun Pack
+
+```bash
+sudo apt install \
+sl cowsay lolcat figlet toilet cmatrix hollywood \
+neofetch btop ranger cava cbonsai tty-clock \
+pipes.sh fortune-mod ninvaders nsnake greed \
+moon-buggy oneko peaclock bat eza micro
+```
+
+---
+
+# Ultra-Cool Combination
+
+Run this:
+
+```bash
+clear
+figlet "KALI LINUX" | lolcat
+pokemon-colorscripts -r
+fortune | cowsay | lolcat
+tty-clock -c -C 4 -s
+```
+
+It creates a fully animated cyberpunk-style terminal.
