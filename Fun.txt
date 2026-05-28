@@ -1172,6 +1172,372 @@ Looks surprisingly cinematic.
 
 
 
+# More Insane/Funny Kali Terminal Stuff
+
+## 45. `nyancat`
+
+Animated Nyan Cat in terminal.
+
+### Install
+
+```bash id="wjlwm9"
+sudo apt install nyancat
+```
+
+### Run
+
+```bash id="im2i9u"
+nyancat
+```
+
+---
+
+## 46. `doge`
+
+Random doge-style motivational quotes.
+
+### Install
+
+```bash id="t5g8zm"
+sudo apt install doge
+```
+
+### Run
+
+```bash id="wh4dz9"
+doge
+```
+
+---
+
+## 47. `cmatrix` Hidden Modes
+
+Rainbow Matrix:
+
+```bash id="ux8e4v"
+cmatrix -C cyan
+```
+
+Bold mode:
+
+```bash id="2swd2d"
+cmatrix -b
+```
+
+Linux-style:
+
+```bash id="ykqnp5"
+cmatrix -l
+```
+
+Japanese chars:
+
+```bash id="4tb6mt"
+cmatrix -u 10
+```
+
+---
+
+# Fake Hacker Loading Screens
+
+## FBI Breach
+
+```bash id="u3c2rx"
+for i in {1..100}; do echo "Breaching FBI Database... $i%"; sleep 0.04; done
+```
+
+---
+
+## Crypto Mining Joke
+
+```bash id="2nlm0z"
+while true; do echo "Mining Bitcoin..."; sleep 0.2; done
+```
+
+---
+
+## “Access Granted”
+
+```bash id="g7d3po"
+echo ACCESS GRANTED | toilet -f future | lolcat
+```
+
+---
+
+## Random Password Generator
+
+```bash id="1sl3gn"
+openssl rand -base64 32
+```
+
+---
+
+# Cool Animated Shell Tricks
+
+## Infinite Colored Bars
+
+```bash id="4zh2b5"
+while :; do echo "████████████████████"; done | lolcat
+```
+
+---
+
+## Random Hacker Noise
+
+```bash id="tymevt"
+cat /dev/urandom | hexdump -C
+```
+
+---
+
+## CPU Graph
+
+```bash id="2p6jlwm"
+sudo apt install ttyload
+ttyload
+```
+
+---
+
+# Crazy ASCII Programs
+
+## 48. `cowsay` Characters List
+
+See all available characters:
+
+```bash id="0f42ca"
+cowsay -l
+```
+
+Use dragon:
+
+```bash id="6ttxmp"
+cowsay -f dragon "Kali Linux"
+```
+
+Use tux:
+
+```bash id="v7ec2z"
+cowsay -f tux "Hello"
+```
+
+---
+
+## 49. `toilet` Fonts
+
+List fonts:
+
+```bash id="jlwm4t"
+ls /usr/share/figlet
+```
+
+Use smblock:
+
+```bash id="a5r8qm"
+toilet -f smblock KALI
+```
+
+---
+
+## 50. `pv` Movie Style
+
+Fake decryption:
+
+```bash id="hy4edh"
+pv -qL 50 /dev/urandom
+```
+
+---
+
+# Cyberpunk Desktop Effects
+
+## Glitch Text
+
+```bash id="8v0hkm"
+echo "SYSTEM FAILURE" | lolcat
+```
+
+---
+
+## Terminal Earthquake
+
+```bash id="cm1n7s"
+yes "ERROR ERROR ERROR" | lolcat
+```
+
+Stop:
+
+```bash id="jlwm1f"
+CTRL + C
+```
+
+---
+
+# Fun Networking Commands
+
+## Trace Route Animation
+
+```bash id="g4wh4g"
+traceroute google.com
+```
+
+Install:
+
+```bash id="5e5u4j"
+sudo apt install traceroute
+```
+
+---
+
+## Live Packet Fun
+
+```bash id="jjlwm0"
+sudo tcpdump
+```
+
+---
+
+# Funny Aliases
+
+Add to `~/.zshrc`
+
+## Matrix command
+
+```bash id="h9t2a0"
+alias matrix='cmatrix -b'
+```
+
+## Hacker mode
+
+```bash id="rj6mx2"
+alias hacker='hollywood'
+```
+
+## Rainbow ls
+
+```bash id="r88pt2"
+alias ls='eza --icons --color=always'
+```
+
+## Cool cat
+
+```bash id="yx7h3q"
+alias cat='bat'
+```
+
+---
+
+# Ultimate Fake Hacker Screen
+
+Run:
+
+```bash id="cvcrkt"
+clear
+figlet "ACCESSING MAINFRAME" | lolcat
+sleep 1
+cmatrix
+```
+
+---
+
+# Chaotic Terminal Combo
+
+Open multiple terminals:
+
+### Terminal 1
+
+```bash id="jlwm94"
+cmatrix
+```
+
+### Terminal 2
+
+```bash id="qjlwm8"
+pipes.sh
+```
+
+### Terminal 3
+
+```bash id="xg2u5x"
+cava
+```
+
+### Terminal 4
+
+```bash id="jlwm8o"
+hollywood
+```
+
+Your desktop will look like a sci-fi hacking movie.
+
+---
+
+# Hidden Nerdy Stuff
+
+## Play Chess in Terminal
+
+```bash id="s3n8zm"
+sudo apt install gnuchess
+gnuchess
+```
+
+---
+
+## Terminal Calculator
+
+```bash id="wjlwm5"
+sudo apt install calc
+calc
+```
+
+---
+
+## Speak Matrix Voice
+
+```bash id="jjlwm2"
+espeak "Wake up Neo"
+```
+
+---
+
+# One-Liner Meme Commands
+
+## Random nonsense
+
+```bash id="8mjlwm"
+fortune | cowsay | lolcat
+```
+
+---
+
+## Infinite rainbow
+
+```bash id="jlwm7x"
+yes KALI | lolcat
+```
+
+---
+
+## Dancing Terminal
+
+```bash id="9tjlwm"
+watch -t -n0.1 "date +%T | toilet -f future | lolcat"
+```
+
+---
+
+# If You Want REALLY Cool Stuff
+
+You should also try:
+
+* Kitty
+* Alacritty
+* Oh My Zsh
+* Powerlevel10k
+* Starship
+* Tmux
+
+Those can make your Kali terminal look genuinely futuristic instead of just funny.
 
 
 
