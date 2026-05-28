@@ -5,6 +5,7 @@
 # Commands
 1. spiderfoot -l 127.0.0.1:5050  --> This command runs the spiderfoot on the local host and listens on port 5050.
     Open the browser -> paste the ip and port -> there put the scanning name -> paste the domain name  -> start scanning
+
 2. spiderfoot -s target.com  --> This command starts a scan on the target website.
 
 
