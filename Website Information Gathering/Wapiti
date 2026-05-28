@@ -15,3 +15,100 @@ Usage:wapiti [-h] [-u URL] [--swagger URI] [--data data] [--scope {url,page,fold
               [--max-attack-time SECONDS] [--max-parameters MAX] [-S FORCE] [--tasks tasks] [--external-endpoint EXTERNAL_ENDPOINT_URL] [--internal-endpoint INTERNAL_ENDPOINT_URL]
               [--endpoint ENDPOINT_URL] [--dns-endpoint DNS_ENDPOINT_DOMAIN] [-t SECONDS] [-H HEADER] [-A AGENT] [--verify-ssl {0,1}] [--color] [-v LEVEL] [--log OUTPUT_PATH] [-f FORMAT]
               [-o OUTPUT_PATH] [-dr DETAILED_REPORT_LEVEL] [--no-bugreport] [--update] [--version] [--cms CMS_LIST] [--wapp-url WAPP_URL] [--wapp-dir WAPP_DIR]
+
+Wapiti 3.2.10: Web application vulnerability scanner
+
+options:
+  -h, --help            show this help message and exit
+  -u, --url URL         The base URL used to define the scan scope (default scope is folder)
+  --swagger URI         Swagger file URI (path or URL) to target API endpoints
+  --data data           Urlencoded data to send with the base URL if it is a POST request
+  --scope {url,page,folder,subdomain,domain,punk}
+                        Set scan scope
+  -m, --module MODULES_LIST
+                        List of modules to load
+  --list-modules        List Wapiti attack modules and exit
+  -l, --level LEVEL     Set attack level
+  -p, --proxy PROXY_URL
+                        Set the HTTP(S) proxy to use. Supported: http(s) and socks proxies
+  --tor                 Use Tor listener (127.0.0.1:9050)
+  --mitm-port PORT      Instead of crawling, launch an intercepting proxy on the given port
+  --headless {no,hidden,visible}
+                        Use a Firefox headless crawler for browsing (slower)
+  --wait TIME           Wait the specified amount of seconds before analyzing a webpage (headless mode only)
+  -a, --auth-cred CREDENTIALS
+                        (DEPRECATED) Set HTTP authentication credentials
+  --auth-user USERNAME  Set HTTP authentication username credentials
+  --auth-password PASSWORD
+                        Set HTTP authentication password credentials
+  --auth-method {basic,digest,ntlm}
+                        Set the HTTP authentication method to use
+  --form-cred CREDENTIALS
+                        (DEPRECATED) Set login form credentials
+  --form-user USERNAME  Set login form credentials
+  --form-password PASSWORD
+                        Set password form credentials
+  --form-url URL        Set login form URL
+  --form-data DATA      Set login form POST data
+  --form-enctype DATA   Set enctype to use to POST form data to form URL
+  --form-script FILENAME
+                        Use a custom Python authentication plugin
+  -c, --cookie COOKIE_FILE
+                        Set a JSON cookie file to use. You can also pass 'firefox' or 'chrome' to load cookies from your browser.
+  -sf, --side-file SIDE_FILE
+                        Use a .side file generated using Selenium IDE to perform an authenticated scan.
+  -C, --cookie-value COOKIE_VALUE
+                        Set a cookie to use for every request for authenticated scan. You can put multiple cookies separated by semicolons as a value
+  --drop-set-cookie     Ignore Set-Cookie header from HTTP responses
+  --skip-crawl          Don't resume the scanning process, attack URLs scanned during a previous session
+  --resume-crawl        Resume the scanning process (if stopped) even if some attacks were previously performed
+  --flush-attacks       Flush attack history and vulnerabilities for the current session
+  --flush-session       Flush everything that was previously found for this target (crawled URLs, vulns, etc)
+  --store-session PATH  Directory where to store attack history and session data.
+  --store-config PATH   Directory where to store configuration databases.
+  -s, --start URL       Adds a url to start scan with
+  -x, --exclude URL     Adds a url to exclude from the scan
+  -r, --remove PARAMETER
+                        Remove this parameter from urls
+  --skip PARAMETER      Skip attacking given parameter(s)
+  -d, --depth DEPTH     Set how deep the scanner should explore the website
+  --max-links-per-page MAX
+                        Set how many (in-scope) links the scanner should extract for each page
+  --max-files-per-dir MAX
+                        Set how many pages the scanner should explore per directory
+  --max-scan-time SECONDS
+                        Set how many seconds you want the scan to last (floats accepted)
+  --max-attack-time SECONDS
+                        Set how many seconds you want each attack module to last (floats accepted)
+  --max-parameters MAX  URLs and forms having more than MAX input parameters will be erased before attack.
+  -S, --scan-force FORCE
+                        Easy way to reduce the number of scanned and attacked URLs. Possible values: paranoid, sneaky, polite, normal, aggressive, insane
+  --tasks tasks         Number of concurrent tasks to use for the exploration (crawling) of the target.
+  --external-endpoint EXTERNAL_ENDPOINT_URL
+                        Url serving as endpoint for target
+  --internal-endpoint INTERNAL_ENDPOINT_URL
+                        Url serving as endpoint for attacker
+  --endpoint ENDPOINT_URL
+                        Url serving as endpoint for both attacker and target
+  --dns-endpoint DNS_ENDPOINT_DOMAIN
+                        Domain serving as DNS endpoint for Log4Shell attack
+  -t, --timeout SECONDS
+                        Set timeout for requests
+  -H, --header HEADER   Set a custom header to use for every requests
+  -A, --user-agent AGENT
+                        Set a custom user-agent to use for every requests
+  --verify-ssl {0,1}    Set SSL check (default is no check)
+  --color               Colorize output
+  -v, --verbose LEVEL   Set verbosity level (0: quiet, 1: normal, 2: verbose)
+  --log OUTPUT_PATH     Output log file
+  -f, --format FORMAT   Set output format. Supported: csv, html, json, md, txt, xml. Default is html.
+  -o, --output OUTPUT_PATH
+                        Output file or folder
+  -dr, --detailed-report DETAILED_REPORT_LEVEL
+                        level 1 : include only the HTTP requests, level 2 : include HTTP requests and responses
+  --no-bugreport        Don't send automatic bug report when an attack module fails
+  --update              Update Wapiti attack modules and exit
+  --version             Show program's version number and exit
+  --cms CMS_LIST        Choose the CMS to scan. Possible choices : drupal, joomla, prestashop, spip, wp
+  --wapp-url WAPP_URL   Provide a custom URL for updating Wappalyzer Database
+  --wapp-dir WAPP_DIR   Provide a custom directory path for updating Wappalyzer Database
