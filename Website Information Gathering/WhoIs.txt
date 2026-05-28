@@ -11,7 +11,8 @@ From here we can see
 	. Technical Contact
 
 
-ex. for flipkart.com
+# Result:
+ for flipkart.com
 flipkart.com
 Updated 5 hours ago
 Domain Information
