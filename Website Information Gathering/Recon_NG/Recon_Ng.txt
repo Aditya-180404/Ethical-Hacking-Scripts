@@ -71,3 +71,20 @@ _/    _/  _/_/_/_/    _/_/_/    _/_/_/    _/      _/            _/      _/    _/
 5. Options set CUSTOMER Saturnx  --> it is used to set the customer name in the report
 6. run  --> to run the module and generate the report
 7. back  --> to return to the main menu
+
+
+# usage: 
+    recon-ng [-h] [-w workspace] [-r filename] [--no-version] [--no-analytics] [--no-marketplace] [--stealth] [--accessible] [--version]
+
+recon-ng - Tim Tomes (@lanmaster53)
+
+# options:
+  -h, --help        show this help message and exit
+  -w workspace      load/create a workspace
+  -r filename       load commands from a resource file
+  --no-version      disable version check. Already disabled by default in Debian
+  --no-analytics    disable analytics reporting. Already disabled by default in Debian
+  --no-marketplace  disable remote module management
+  --stealth         disable all passive requests (--no-*)
+  --accessible      Use accessible outputs when available
+  --version         displays the current version
