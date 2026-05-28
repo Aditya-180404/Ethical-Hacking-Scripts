@@ -19,7 +19,9 @@ It is used to get information about any sub-directory or sub-domain of a domain.
 4. subfinder -dL domain.txt -s github  --> Used to find the subdomains of the domains listed in domain.txt using github as the source. Here -s means source.
 5. subfinder -dL domain.txt -s github,reddit  --> Used to find the subdomains of the domains listed in domain.txt using github and reddit as the sources.
 6. subfinder -dL domain.txt -s all  --> Used to find the subdomains of the domains listed in domain.txt using all the available sources.
-7. subfinder -dL list.txt -es  --> Used to display the source this tool is using to get the result
+7. subfinder -dL list.txt -cs  --> Used to display the source this tool is using to get the result
+8. subfinder -dL domain.txt -o result.txt  --> Used to save the result in result.txt. Here -o means output.
+9. subfinder -dl domain.txt -silent  --> Silent mode. Do this scan anyonimusly without any ping to the target website. Here -silent means silent mode.
 
 
 
