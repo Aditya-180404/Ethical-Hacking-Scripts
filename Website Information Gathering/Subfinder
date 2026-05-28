@@ -14,3 +14,7 @@ It is used to get information about any sub-directory or sub-domain of a domain.
 # Commands
 
 1. subfinder -d example.com  --> Used to find the subdomains of example.com. Here -d means domain
+2. subfinder -dL domains.txt  --> Used to find the subdomains of the domains listed in domains.txt. Here -dL means domain list.
+3. subfinder -ls  --> Used to list the available sources or quaries that subfinder uses to gather information about the subdomains.
+4. subfinder -dL domain.txt -s github  --> Used to find the subdomains of the domains listed in domain.txt using github as the source. Here -s means source.
+5. subfinder -dL domain.txt -s github,reddit  --> Used to find the subdomains of the domains listed in domain.txt using github and reddit as the sources.
