@@ -7,7 +7,8 @@
                   |_|                 
 
 
-Usage:wapiti [-h] [-u URL] [--swagger URI] [--data data] [--scope {url,page,folder,subdomain,domain,punk}] [-m MODULES_LIST] [--list-modules] [-l LEVEL] [-p PROXY_URL] [--tor]
+# Usage:
+            wapiti [-h] [-u URL] [--swagger URI] [--data data] [--scope {url,page,folder,subdomain,domain,punk}] [-m MODULES_LIST] [--list-modules] [-l LEVEL] [-p PROXY_URL] [--tor]
               [--mitm-port PORT] [--headless {no,hidden,visible}] [--wait TIME] [-a CREDENTIALS] [--auth-user USERNAME] [--auth-password PASSWORD] [--auth-method {basic,digest,ntlm}]
               [--form-cred CREDENTIALS] [--form-user USERNAME] [--form-password PASSWORD] [--form-url URL] [--form-data DATA] [--form-enctype DATA] [--form-script FILENAME]
               [-c COOKIE_FILE] [-sf SIDE_FILE] [-C COOKIE_VALUE] [--drop-set-cookie] [--skip-crawl] [--resume-crawl] [--flush-attacks] [--flush-session] [--store-session PATH]
@@ -18,7 +19,7 @@ Usage:wapiti [-h] [-u URL] [--swagger URI] [--data data] [--scope {url,page,fold
 
 Wapiti 3.2.10: Web application vulnerability scanner
 
-options:
+# options:
   -h, --help            show this help message and exit
   -u, --url URL         The base URL used to define the scan scope (default scope is folder)
   --swagger URI         Swagger file URI (path or URL) to target API endpoints
