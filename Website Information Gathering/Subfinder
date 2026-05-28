@@ -9,3 +9,8 @@
 
 
 It is used to get information about any sub-directory or sub-domain of a domain.
+
+
+# Commands
+
+1. subfinder -d example.com  --> Used to find the subdomains of example.com. Here -d means domain
