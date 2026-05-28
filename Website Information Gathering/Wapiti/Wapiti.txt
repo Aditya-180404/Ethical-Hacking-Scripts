@@ -11,11 +11,10 @@
 This tool is used for webapplication and webserver vulnarability scanning.
 
 # Target creation:
-  open metaspoitable linux2 -> login id - msfadmin and password - msfadmin -> ifconcig -> copy the ip -> open browser -> paste the ip -> open mutillidae
-
+  open metaspoitable linux2 -> login id - msfadmin and password - msfadmin -> ifconcig -> copy the ip -> open browser -> paste the ip -> open mutillidae  -> copy the url -> open wapiti -> paste the url and start the scan
 
 # Commands:
-
+1. 
 
 # Usage:
             wapiti [-h] [-u URL] [--swagger URI] [--data data] [--scope {url,page,folder,subdomain,domain,punk}] [-m MODULES_LIST] [--list-modules] [-l LEVEL] [-p PROXY_URL] [--tor]
