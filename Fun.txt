@@ -787,3 +787,393 @@ tty-clock -c -C 4 -s
 ```
 
 It creates a fully animated cyberpunk-style terminal.
+
+
+
+
+# Even More Crazy/Funny Kali Terminal Stuff
+
+## 31. `rig`
+
+Generates fake identities.
+
+### Install
+
+```bash id="ktld65"
+sudo apt install rig
+```
+
+### Run
+
+```bash id="j2wcjj"
+rig
+```
+
+Random fake hacker identities.
+
+---
+
+## 32. `macchanger`
+
+Randomize MAC address like a movie hacker.
+
+### Install
+
+```bash id="79i2ez"
+sudo apt install macchanger
+```
+
+### Random MAC
+
+```bash id="xyj87l"
+sudo macchanger -r wlan0
+```
+
+---
+
+## 33. `screenfetch`
+
+Alternative to neofetch.
+
+### Install
+
+```bash id="jlwm95"
+sudo apt install screenfetch
+```
+
+### Run
+
+```bash id="l2duzu"
+screenfetch
+```
+
+---
+
+## 34. `boxes`
+
+Put text inside fancy ASCII boxes.
+
+### Install
+
+```bash id="q5u7dq"
+sudo apt install boxes
+```
+
+### Example
+
+```bash id="2x01gv"
+echo "KALI LINUX" | boxes
+```
+
+---
+
+## 35. `aafire`
+
+ASCII fire animation.
+
+### Install
+
+```bash id="8yxm9x"
+sudo apt install libaa-bin
+```
+
+### Run
+
+```bash id="gh6iws"
+aafire
+```
+
+---
+
+## 36. `bb` Matrix + Fire Combo
+
+Try:
+
+```bash id="4u3o6k"
+aafire && cmatrix
+```
+
+---
+
+## 37. `ansiweather`
+
+Terminal weather with colors.
+
+### Install
+
+```bash id="h5yj31"
+sudo apt install ansiweather
+```
+
+### Run
+
+```bash id="o0yrlz"
+ansiweather
+```
+
+---
+
+## 38. `ponysay`
+
+Like cowsay but with My Little Pony.
+
+### Install
+
+```bash id="eqkbgj"
+sudo apt install ponysay
+```
+
+### Run
+
+```bash id="fzhfrq"
+ponysay "Access Granted"
+```
+
+Random pony:
+
+```bash id="wz0r2g"
+ponysay -r "Hello"
+```
+
+---
+
+## 39. `terminal-parrot`
+
+Dancing party parrot.
+
+### Install
+
+```bash id="9ihq7g"
+git clone https://github.com/jmhobbs/terminal-parrot.git
+cd terminal-parrot
+sudo chmod +x parrot.sh
+```
+
+### Run
+
+```bash id="4k8zje"
+./parrot.sh
+```
+
+---
+
+## 40. `asciinema`
+
+Record terminal sessions like movies.
+
+### Install
+
+```bash id="1ce6sn"
+sudo apt install asciinema
+```
+
+### Start recording
+
+```bash id="d8pn4v"
+asciinema rec
+```
+
+---
+
+# Fake Cybersecurity/Hacker Effects
+
+## “Decrypting”
+
+```bash id="9vkq8r"
+tr -dc A-F0-9 < /dev/urandom | head -c 5000
+```
+
+---
+
+## Rapid Scrolling
+
+```bash id="8d0g1g"
+cat /dev/urandom | hexdump -C
+```
+
+Stop:
+
+```bash id="b1e14t"
+CTRL + C
+```
+
+---
+
+## Fake AI Boot Sequence
+
+```bash id="xppx9o"
+for i in {1..100}; do echo "Initializing AI Core: $i%"; sleep 0.03; done
+```
+
+---
+
+## Self-Destruct Joke
+
+```bash id="n6l8ij"
+echo "Self destruct initiated..." && sleep 2 && echo "Just kidding."
+```
+
+---
+
+# Hidden Gem Commands
+
+## 41. `xeyes`
+
+Eyes follow your cursor.
+
+### Install
+
+```bash id="7i3f0i"
+sudo apt install x11-apps
+```
+
+### Run
+
+```bash id="7cr0kh"
+xeyes
+```
+
+---
+
+## 42. `espeak`
+
+Robot voice terminal.
+
+### Install
+
+```bash id="2e9ktm"
+sudo apt install espeak
+```
+
+### Example
+
+```bash id="57m2j3"
+espeak "Welcome to Kali Linux"
+```
+
+---
+
+## 43. `speedtest-cli`
+
+Internet speed in terminal.
+
+### Install
+
+```bash id="8i2kpb"
+sudo apt install speedtest-cli
+```
+
+### Run
+
+```bash id="1mpf5q"
+speedtest
+```
+
+---
+
+## 44. `telnet towel.blinkenlights.nl`
+
+ASCII Star Wars movie.
+
+### Run
+
+```bash id="qlmq6f"
+telnet towel.blinkenlights.nl
+```
+
+Install telnet if needed:
+
+```bash id="zbw53y"
+sudo apt install telnet
+```
+
+---
+
+# Beautiful Modern CLI Replacements
+
+| Old Command | Better Replacement |
+| ----------- | ------------------ |
+| `ls`        | `eza`              |
+| `cat`       | `bat`              |
+| `top`       | `btop`             |
+| `find`      | `fd`               |
+| `grep`      | `ripgrep`          |
+| `du`        | `dust`             |
+| `ps`        | `procs`            |
+
+---
+
+# Install Modern CLI Suite
+
+```bash id="z4ch8f"
+sudo apt install bat eza fd-find ripgrep dust procs
+```
+
+---
+
+# Ultimate Hacker Startup Script
+
+Put this inside `~/.zshrc`:
+
+```bash id="gdu4y2"
+clear
+
+pokemon-colorscripts -r
+
+fortune | cowsay | lolcat
+
+figlet "KALI" | lolcat
+
+echo "System Status:"
+neofetch
+
+echo "Launching Matrix..."
+sleep 2
+cmatrix
+```
+
+---
+
+# Extreme Fun
+
+## Endless Rainbow Terminal
+
+```bash id="bkrn7k"
+while true; do date | lolcat; sleep 0.1; done
+```
+
+---
+
+## RGB Terminal Spam
+
+```bash id="vkpw52"
+yes "KALI LINUX" | lolcat
+```
+
+---
+
+## Infinite Fire + Music Visualizer
+
+Open two terminals:
+
+### Terminal 1
+
+```bash id="5d0w0q"
+aafire
+```
+
+### Terminal 2
+
+```bash id="y64sxw"
+cava
+```
+
+Looks surprisingly cinematic.
+
+
+
+
+
+
+
+
