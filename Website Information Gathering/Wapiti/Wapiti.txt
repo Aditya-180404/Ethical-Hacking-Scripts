@@ -10,7 +10,8 @@
 
 This tool is used for webapplication and webserver vulnarability scanning.
 
-
+# Target creation:
+  open metaspoitable linux2 -> login id - msfadmin and password - msfadmin -> ifconcig -> copy the ip -> open browser -> paste the ip -> open mutillidae
 
 
 # Usage:
