@@ -21,7 +21,7 @@ This tool is used for webapplication and webserver vulnarability scanning.
 5. wapiti -u url --resume-crawl  --> Resumes the crawling. After generating the report move to the next tool and then come back to wapiti and run this command to resume the crawling.
 6. wapiti -u url --flush-attacks  --> Flush attack history and vulnerabilities for the current session. Discover vulnarebility from the url.
 7. wapiti -u url --flush-session  --> It is used for the session scanning.
-8
+8. wapiti -u url -o filename -f txt  --> This command saves the result in the current working directory . It generates report in  text format.
 
 # Usage:
             wapiti [-h] [-u URL] [--swagger URI] [--data data] [--scope {url,page,folder,subdomain,domain,punk}] [-m MODULES_LIST] [--list-modules] [-l LEVEL] [-p PROXY_URL] [--tor]
