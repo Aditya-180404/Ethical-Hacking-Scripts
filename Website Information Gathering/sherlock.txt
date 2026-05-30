@@ -12,3 +12,6 @@ It is an open source tool that allows you to find usernames across many social m
 8. sherlock [Username] --proxy 192.168.1.1:8080 -> This command will use the specified proxy server for the search.
 9. sherlock [Username] --dump-response ->  This command do http Response searching.It means it returns the headers of all the websites where the user name is found.
 10. sherlock [Username] --time 1 -> this cvommand shows the results after 1 call or 1 knock.
+11. sherlock [Username] --print-all -> This command will print all the results, including those that are not found.
+12. sherlock [Username] --print-found -> This command will print only the results that are found.
+13.
