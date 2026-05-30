@@ -1,0 +1,5 @@
+It is an open source tool that allows you to find usernames across many social media platforms. It is written in Python and can be used to quickly gather information about a person or organization by searching for their username on various social media sites. Sherlock is a powerful tool for OSINT (Open Source Intelligence) gathering and can be used for various purposes, including cybersecurity, digital forensics, and social media analysis.
+
+# Commands
+
+1.sherlock [username] - This command will search for the specified username across all supported social media platforms.
