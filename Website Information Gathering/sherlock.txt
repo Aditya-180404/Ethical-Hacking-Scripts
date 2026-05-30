@@ -2,4 +2,10 @@ It is an open source tool that allows you to find usernames across many social m
 
 # Commands
 
-1.sherlock [username] - This command will search for the specified username across all supported social media platforms.
+1. sherlock [username] -> This command will search for the specified username across all supported social media platforms.
+2. sherlock [phone_number] -> This command will search for the specified phone number across all supported social media platforms.
+3. sherlock [email] -> This command will search for the specified email address across all supportedsocial media platforms.
+4. sherlock [Username] --site thread -> This command will search for the specified username on the specified social media platform (e.g., Twitter, Facebook, Instagram).
+5. sherlock [Username] --site all -> This command will search for the specified username
+6. sherlock [Username]{?} -> This command will find the simillar username like if the username is Aditya then it will also search for Aditya1, Aditya_ etc. It will find the simillar username and show the result.
+7. sherlock [Username1] [Username2] -> This command will search for both specified usernames across all supported social media platforms.
