@@ -14,4 +14,5 @@ It is an open source tool that allows you to find usernames across many social m
 10. sherlock [Username] --time 1 -> this cvommand shows the results after 1 call or 1 knock.
 11. sherlock [Username] --print-all -> This command will print all the results, including those that are not found.
 12. sherlock [Username] --print-found -> This command will print only the results that are found.
-13.
+13. sherlock [Username] --site-thread --browse -> This command will search for the specified username on the specified social media platform and open the found profiles in a web browser.
+14. Sherlock [Username] -o res.txt -> This command will save the results of the search to a file named res.txt.
