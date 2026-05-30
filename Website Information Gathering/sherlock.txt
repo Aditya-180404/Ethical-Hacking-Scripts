@@ -9,3 +9,6 @@ It is an open source tool that allows you to find usernames across many social m
 5. sherlock [Username] --site all -> This command will search for the specified username
 6. sherlock [Username]{?} -> This command will find the simillar username like if the username is Aditya then it will also search for Aditya1, Aditya_ etc. It will find the simillar username and show the result.
 7. sherlock [Username1] [Username2] -> This command will search for both specified usernames across all supported social media platforms.
+8. sherlock [Username] --proxy 192.168.1.1:8080 -> This command will use the specified proxy server for the search.
+9. sherlock [Username] --dump-response ->  This command do http Response searching.It means it returns the headers of all the websites where the user name is found.
+10. sherlock [Username] --time 1 -> this cvommand shows the results after 1 call or 1 knock.
