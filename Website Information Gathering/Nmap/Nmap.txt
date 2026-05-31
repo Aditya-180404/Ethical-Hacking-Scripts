@@ -1,0 +1,3 @@
+It is a network mapper tool. It si used for scanning the network and finding the open ports and services running on the target system. It is a powerful tool for network reconnaissance and can be used for various purposes, including cybersecurity, digital forensics, and network analysis.
+
+# Commands
