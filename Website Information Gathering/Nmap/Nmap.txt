@@ -1,3 +1,7 @@
 It is a network mapper tool. It si used for scanning the network and finding the open ports and services running on the target system. It is a powerful tool for network reconnaissance and can be used for various purposes, including cybersecurity, digital forensics, and network analysis.
 
 # Commands
+
+1. nmap ip --> This command will scan the specified IP address and show the open ports and services running on the target system.
+2. nmap -A ip --> This command will scan ip address aggressively and show the open ports, services, and operating system information of the target system.It is also called deep scan.
+3. nmap -A ip -v --> this command wil do deep scan with higher speed.
