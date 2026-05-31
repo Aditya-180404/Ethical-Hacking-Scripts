@@ -7,3 +7,4 @@ It is a network mapper tool. It si used for scanning the network and finding the
 3. nmap -A ip -v --> this command wil do deep scan with higher speed.
 4. nmap -Pn ip -v --> This command will scan the specified IP address without pinging it first. It is useful for scanning systems that are behind a firewall or have ICMP disabled.
 5. nmap -O ip -v --> This command will scan the specified IP address and attempt to determine the operating system running on the target system.
+6. nmap -sV ip -v --> This command will scan the specified IP address and attempt to determine the version of the services running on the target system.
