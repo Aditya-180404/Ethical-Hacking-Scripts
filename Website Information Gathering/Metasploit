@@ -11,3 +11,6 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 1. service start postgresql -> starts the postgresql , the database of the metasploit framework.
 2. msfconsole -> starts the metasploit console.
 3. db_status -> checks database connection.
+4. exit
+5. msfdb init -> creates and initialize the database.
+6. service postgresql restart -> restarts the postgresql service.
