@@ -1,3 +1,6 @@
+
+
+
 ## Metasploit
 
 It is a powerful framework used for penetration testing, vulnerability assessment, and exploitation. Metasploit provides a wide range of tools and modules that allow security professionals to identify and exploit vulnerabilities in systems and applications. It includes features such as payload generation, exploit development, and post-exploitation capabilities.
@@ -19,6 +22,7 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 8. msfconsole 
 9. db_status -> checks the status of the database connection. after successful connection it shows this prompt "[*] Connected to msf. Connection type: postgresql."
 10. search <module_name> -> searches for a specific module in the Metasploit framework.
+
 
 
 
