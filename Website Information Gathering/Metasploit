@@ -14,3 +14,6 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 4. exit
 5. msfdb init -> creates and initialize the database.
 6. service postgresql restart -> restarts the postgresql service.
+7. msfconsole -q -> starts the metasploit console in quiet mode.
+8. msfconsole 
+9. db_status -> checks the status of the database connection. after successful connection it shows this prompt "[*] Connected to msf. Connection type: postgresql."
