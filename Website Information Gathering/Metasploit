@@ -62,3 +62,10 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 4. set RHOSTS <target_ip> -> sets the target IP address for scanning.
 5. set THREADS <number_of_threads> -> sets the number of threads to use for scanning.
 6. run -> executes the loaded module with the specified options.
+
+
+# FTP Version Scan
+1. search ftp_version -> searches for FTP version detection modules in the Metasploit framework.
+2. use 0 -> loads the "auxiliary/scanner/ftp/ftp_version" module for FTP version detection.
+3. show options -> displays the available options for the loaded module.
+4. set RHOSTS <target_ip> -> sets the target IP address for scanning.
