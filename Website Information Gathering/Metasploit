@@ -49,6 +49,7 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 
 ## Internal Modules
 
+# portscan module
 1. search portscan -> searches for port scanning modules in the Metasploit framework.
 2. use 6 -> loads the "auxiliary/scanner/portscan/syn" module for TCP port scanning.TCP SYN Port Scanner
 3. show options -> displays the available options for the loaded module.
