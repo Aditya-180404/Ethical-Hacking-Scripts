@@ -6,6 +6,7 @@ By this we can do scanning, enumuration, payload creation,monitoring,clearing th
 
 Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3 etc.
 
+
 ## Scripts
 
 1. service start postgresql -> starts the postgresql , the database of the metasploit framework.
@@ -17,3 +18,9 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 7. msfconsole -q -> starts the metasploit console in quiet mode.
 8. msfconsole 
 9. db_status -> checks the status of the database connection. after successful connection it shows this prompt "[*] Connected to msf. Connection type: postgresql."
+10. search <module_name> -> searches for a specific module in the Metasploit framework.
+
+
+
+## Internal Modules
+
