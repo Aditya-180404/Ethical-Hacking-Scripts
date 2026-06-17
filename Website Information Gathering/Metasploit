@@ -52,3 +52,8 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 1. search portscan -> searches for port scanning modules in the Metasploit framework.
 2. use 6 -> loads the "auxiliary/scanner/portscan/syn" module for TCP port scanning.TCP SYN Port Scanner
 3. show options -> displays the available options for the loaded module.
+4. set RHOSTS <target_ip> -> sets the target IP address for scanning.
+5. set THREADS <number_of_threads> -> sets the number of threads to use for scanning.
+6. set PORTS <port_range> -> sets the range of ports to scan on the target system.
+7. show options -> displays the available options for the loaded module.
+8. run -> executes the loaded module with the specified options.
