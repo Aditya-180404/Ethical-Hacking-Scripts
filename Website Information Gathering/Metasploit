@@ -1,0 +1,13 @@
+## Metasploit
+
+It is a powerful framework used for penetration testing, vulnerability assessment, and exploitation. Metasploit provides a wide range of tools and modules that allow security professionals to identify and exploit vulnerabilities in systems and applications. It includes features such as payload generation, exploit development, and post-exploitation capabilities.
+
+By this we can do scanning, enumuration, payload creation,monitoring,clearing the track, attacking etc tasks.
+
+Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3 etc.
+
+## Scripts
+
+1. service start postgresql -> starts the postgresql , the database of the metasploit framework.
+2. msfconsole -> starts the metasploit console.
+3. db_status -> checks database connection.
