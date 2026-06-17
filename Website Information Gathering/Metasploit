@@ -43,9 +43,12 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 8. msfconsole 
 9. db_status -> checks the status of the database connection. after successful connection it shows this prompt "[*] Connected to msf. Connection type: postgresql."
 10. search <module_name> -> searches for a specific module in the Metasploit framework.
-
-
+11. use <no_of_module> or use <module_name_with_path> -> loads a specific module for use.
+12. show options -> displays the available options for the loaded module.
 
 
 ## Internal Modules
 
+1. search portscan -> searches for port scanning modules in the Metasploit framework.
+2. use 6 -> loads the "auxiliary/scanner/portscan/syn" module for TCP port scanning.TCP SYN Port Scanner
+3. show options -> displays the available options for the loaded module.
