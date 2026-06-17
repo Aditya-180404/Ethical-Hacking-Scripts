@@ -40,6 +40,8 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 10. search <module_name> -> searches for a specific module in the Metasploit framework.
 11. use <no_of_module> or use <module_name_with_path> -> loads a specific module for use.
 12. show options -> displays the available options for the loaded module.
+13. back -> returns to the previous menu or context in the Metasploit console.
+14. hosts -o <path_to_file> -> saves the list of discovered hosts to a specified file.
 
 
 ## Internal Modules
@@ -69,3 +71,5 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 2. use 0 -> loads the "auxiliary/scanner/ftp/ftp_version" module for FTP version detection.
 3. show options -> displays the available options for the loaded module.
 4. set RHOSTS <target_ip> -> sets the target IP address for scanning.
+5. set THREADS <number_of_threads> -> sets the number of threads to use for scanning.
+6. run -> executes the loaded module with the specified options.
