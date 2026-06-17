@@ -56,3 +56,6 @@ Here we can use the inbuilt tools of metasploit also the tools like nmap, hping3
 
 
 # smb version module
+1. search smb_version -> searches for SMB version detection modules in the Metasploit framework.
+2. use 0 -> loads the "auxiliary/scanner/smb/smb_version" module for SMB version detection.
+3. show options -> displays the available options for the loaded module.
