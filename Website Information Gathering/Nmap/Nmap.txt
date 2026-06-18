@@ -16,3 +16,5 @@ It is a network mapper tool. It si used for scanning the network and finding the
 12. nmap -p 80 ip --> scanning in only port no 80.
 13. nmap -p 1-100 ip --> scanning in all ports ranging from 1 to 100.
 14. nmap -p- ip --> scanning in all ports ranging from 1 to 65535. it means all ports.
+15. nmap -iR 5 --> This command will scan 5 random IP addresses and show the open ports and services running on the target systems.
+16. nmap -p 80 -sT ip -->this commands scans specific 3 way handshaking synchronizationscan on port 80 of the specified IP address.
