@@ -8,3 +8,9 @@ It is a network mapper tool. It si used for scanning the network and finding the
 4. nmap -Pn ip -v --> This command will scan the specified IP address without pinging it first. It is useful for scanning systems that are behind a firewall or have ICMP disabled.
 5. nmap -O ip -v --> This command will scan the specified IP address and attempt to determine the operating system running on the target system.
 6. nmap -sV ip -v --> This command will scan the specified IP address and attempt to determine the version of the services running on the target system.
+7. nmap -sU -v ip --> This command will scan the specified IP address for UDP ports and services running on the target system.
+8. nmap -sC -v ip --> this command finds which ports are actually opened
+9. nmap -sS -v ip --. this command scans tcp ports and shows the open ports and services running on the target system.
+10. nmap -sA -v ip --> Asynchronization scan. this scan sends only asynchronized packets to the target system and shows the open ports and services running on the target system.
+11. nmap -T4 -F ip --. this is firewall with fragmentation scan.. T4 is a parameter.
+12. nmap -p 80 ip --> scanning in only port no 80.
