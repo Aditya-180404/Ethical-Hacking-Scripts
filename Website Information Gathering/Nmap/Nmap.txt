@@ -19,4 +19,4 @@ It is a network mapper tool. It si used for scanning the network and finding the
 15. nmap -iR 5 --> This command will scan 5 random IP addresses and show the open ports and services running on the target systems.
 16. nmap -p 80 -sT ip -->this commands scans specific 3 way handshaking synchronizationscan on port 80 of the specified IP address.
 17. nmap -Pn -sT ip --> no ping 3 way handshaking synchronization scan on the specified IP address.
-18.
+18. nmap -sI <zombie_ip> -p 22 -v ip --> zombie scan with high effeciency. Here the zombie-ip is acts as a middle man . the attacker ip is untracable here.
