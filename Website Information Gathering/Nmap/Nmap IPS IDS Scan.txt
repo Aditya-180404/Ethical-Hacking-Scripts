@@ -16,3 +16,5 @@ IDS only detect the malicious packet activity and alert the administrator but do
 
 Colasoft Packet Builder is a tool that allows you to create and send custom network packets. It can be used to test the effectiveness of IDS/IPS systems by sending crafted packets that may trigger alerts or bypass detection.
 
+open app  ->  add  -> select protocol = arp packet  ->  add  ->  edit packet  ->  send packet
+
