@@ -21,3 +21,7 @@ It is a network mapper tool. It si used for scanning the network and finding the
 17. nmap -Pn -sT ip --> no ping 3 way handshaking synchronization scan on the specified IP address.
 18. nmap -sI <zombie_ip> -p 22 -v ip --> zombie scan with high effeciency. Here the zombie-ip is acts as a middle man . the attacker ip is untracable here.
 19. nmap -p 80 -sX -v ip --> X-mask scan.it correctly states you the correct configuration of the specified port. It is a stealth scan and can be used to bypass firewalls and intrusion detection systems.
+20. nmap -sN -p 22 -v ip  --> Null scan. This scan sends packets with no flags set to the target system and can be used to bypass firewalls and intrusion detection systems.
+21. namp -v 192.168.1.* --> This command scans all subnets.
+22. nmap -v 192.168.1.1,2,3,4,5 --> This command scans multiple specific IP addresses in the same command.
+24. nmap -v 192.168.1.1-5 --> This command scans a range of IP addresses from 1 to 5.
