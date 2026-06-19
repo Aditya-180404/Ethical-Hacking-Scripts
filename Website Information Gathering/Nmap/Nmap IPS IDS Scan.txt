@@ -1,0 +1,6 @@
+IPS-IDS system --> Intrusion Prevention System - Intrusion Detection System. It is a security system that monitors network traffic for suspicious activity and can take action to prevent or alert on potential threats.
+
+IPS prevent the malicious packet activity  by blocking the traffic.
+IDS only detect the malicious packet activity and alert the administrator but does not block the traffic.
+
+# Commands
