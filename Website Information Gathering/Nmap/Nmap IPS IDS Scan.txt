@@ -4,3 +4,7 @@ IPS prevent the malicious packet activity  by blocking the traffic.
 IDS only detect the malicious packet activity and alert the administrator but does not block the traffic.
 
 # Commands
+
+1. nmap -f ip --> This command will perform a fragmentation scan on the specified IP address, which can help to bypass some IDS/IPS systems that do not properly reassemble fragmented packets. It shows the firewall rules.
+2. nmap -g 80 ip --> This command will perform a scan on the specified IP address using source port 80, which can help to bypass some IDS/IPS systems that allow traffic from trusted ports. It shows the firewall rules.
+3. nmap -mtu 8 -v ip --> This command will perform a scan on the specified IP address with a maximum transmission unit (MTU) of 8 bytes, which can help to bypass some IDS/IPS systems that do not properly handle small packets. It shows the firewall rules.
