@@ -9,3 +9,10 @@ IDS only detect the malicious packet activity and alert the administrator but do
 2. nmap -g 80 ip --> This command will perform a scan on the specified IP address using source port 80, which can help to bypass some IDS/IPS systems that allow traffic from trusted ports. It shows the firewall rules.
 3. nmap -mtu 8 -v ip --> This command will perform a scan on the specified IP address with a maximum transmission unit (MTU) of 8 bytes, which can help to bypass some IDS/IPS systems that do not properly handle small packets. It shows the firewall rules.
 4. nmap -D RND:10 ip -v --> sends max 10 bit of random decoy packets to the target IP address, which can help to confuse IDS/IPS systems and make it more difficult for them to detect the scan. It shows the firewall rules.
+
+
+
+# Using Colasoft Packet Builder 
+
+Colasoft Packet Builder is a tool that allows you to create and send custom network packets. It can be used to test the effectiveness of IDS/IPS systems by sending crafted packets that may trigger alerts or bypass detection.
+
