@@ -6,3 +6,4 @@ Nmap NSE Scan --> Nmap Script Engine Scan. It is a special type of nmap scan whe
 2. nmap --script smb-vuln-ms17-010.nse ip --> This command will scan the specified IP address and check for the MS17-010 vulnerability using the smb-vuln-ms17-010 script.
 3. nmap -sUV -p 123 --script ntp-info ip --> This command will scan the specified IP address for UDP port 123 and show the NTP information of the target system using the ntp-info script.
 4. nmap --script vuln ip --> This command will scan the specified IP address and check for various vulnerabilities using the vuln script.
+5. nmap -sUV --script ntp-monlist ip --> This command will scan the specified IP address for UDP port 123 and check for the NTP monlist vulnerability using the ntp-monlist script.
