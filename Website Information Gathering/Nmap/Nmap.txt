@@ -27,3 +27,5 @@ It is a network mapper tool. It si used for scanning the network and finding the
 24. nmap -v 192.168.1.1-5 --> This command scans a range of IP addresses from 1 to 5.
 25. nmap --top-ports 10 -v 10.236.255.70 --> This command scans the top 10 most common ports on the specified IP address.
 26. nmap -oN res.txt ip --> This command saves the output of the scan to a file named res.txt in normal format.
+27. nmap -oX res.xml ip --> This command saves the output of the scan to a file named res.xml in XML format.
+28. nmap -oA res ip --> This command saves the output of the scan to a file named res in all formats (normal, XML, and grepable).
