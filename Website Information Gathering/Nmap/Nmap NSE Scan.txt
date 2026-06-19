@@ -1,0 +1,6 @@
+Nmap NSE Scan --> Nmap Script Engine Scan. It is a special type of nmap scan where network script engine is used.
+
+# Commands
+
+1. nmap --script smb-os-detection.nse ip --> This command will scan the specified IP address and show the operating system information of the target system using the smb-os-detection script.
+2. nmap --script smb-vuln-ms17-010.nse ip --> This command will scan the specified IP address and check for the MS17-010 vulnerability using the smb-vuln-ms17-010 script.
