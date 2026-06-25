@@ -15,3 +15,4 @@ Nikto is a web-vulnarebility  scanning tool.
 11. nikto -h ip no404 --> Disables nikto attempting to guess a 404 page.
 12. nikto -h ip -Pause 10 --> scan the target for vulnarebility while pausing 10 seconds per request.
 13. nikto -h ip -id admin --> finds vulnarebility in admin page.
+14. nikto -h ip -id password --> finds vulnarebility in password.
