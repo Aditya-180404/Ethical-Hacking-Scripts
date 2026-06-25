@@ -16,3 +16,22 @@ Nikto is a web-vulnarebility  scanning tool.
 12. nikto -h ip -Pause 10 --> scan the target for vulnarebility while pausing 10 seconds per request.
 13. nikto -h ip -id admin --> finds vulnarebility in admin page.
 14. nikto -h ip -id password --> finds vulnarebility in password.
+15. nikto -h ip -Tuning --> for tuning 
+     -Tuning+           Scan tuning:
+                               1     Interesting File / Seen in logs
+                               2     Misconfiguration / Default File
+                               3     Information Disclosure
+                               4     Injection (XSS/Script/HTML)
+                               5     Remote File Retrieval - Inside Web Root
+                               6     Denial of Service
+                               7     Remote File Retrieval - Server Wide
+                               8     Command Execution / Remote Shell
+                               9     SQL Injection
+                               0     File Upload
+                               a     Authentication Bypass
+                               b     Software Identification
+                               c     Remote Source Inclusion
+                               d     WebService
+                               e     Administrative Console
+                               x     Reverse Tuning Options (i.e., include all except specified)
+
