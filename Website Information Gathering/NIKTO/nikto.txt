@@ -10,4 +10,8 @@ Nikto is a web-vulnarebility  scanning tool.
 6. nikto -h ip -Cgidirs all --> finds cgi or hidden directories.
 7. nikto -h ip -Display 1 -->  this scan show redirects.
 8. nikto -h ip -Display -v --> verbosity scan.
-9
+9. nikto -h ip -maxtime 1 --> It is a ttl scan and in this case only one time the target will be knocked.
+10 nikto -h ip -nolookup --> only scans the name server.
+11. nikto -h ip no404 --> Disables nikto attempting to guess a 404 page.
+12. nikto -h ip -Pause 10 --> scan the target for vulnarebility while pausing 10 seconds per request.
+13. nikto -h ip -id admin --> finds vulnarebility in admin page.
