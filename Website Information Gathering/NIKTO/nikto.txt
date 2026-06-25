@@ -35,3 +35,6 @@ Nikto is a web-vulnarebility  scanning tool.
                                e     Administrative Console
                                x     Reverse Tuning Options (i.e., include all except specified)
 
+16. nikto -h ip --list -plugins --> to see the plugins of the target.
+17. nikto -h ip -plugins robots --> to check the robots.txt file of the target.
+18. nikto -h ip -o result.txt --> to save the result in a txt format.
