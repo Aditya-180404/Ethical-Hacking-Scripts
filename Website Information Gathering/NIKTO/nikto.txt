@@ -6,3 +6,8 @@ Nikto is a web-vulnarebility  scanning tool.
 2. nikto -dbcheck --> used to check database status.
 3. nikto --host ip --> used for host scanning.
 4. nikto -h flipkart.com --ssl --> This command checks the ssl status of the website.
+5. nikto -h ip -p 80 --> specific port scanning of the target.
+6. nikto -h ip -Cgidirs all --> finds cgi or hidden directories.
+7. nikto -h ip -Display 1 -->  this scan show redirects.
+8. nikto -h ip -Display -v --> verbosity scan.
+9
