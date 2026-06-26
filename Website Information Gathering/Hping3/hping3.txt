@@ -1,0 +1,13 @@
+hping3 is a scanning tool simillar to the nmap tool.
+
+# Commands
+
+1. hping3 ip --> used for the normal host scanning.
+2. hping3 ip --icmp --> used for icmp scanning.
+3. hping3 --scan 1-100 ip --> used to scan the ip range from 1 to 100 .
+4. hping3 --scan 1-100 -V ip --> used to scan the ip range from 1 to 100 with verbose output.
+5. hping3 --spoof 8.8.8.8 --scan 172.16.240.130 -V --> here the the spoof ip is used as the middle man. the target will see packets comming from the spoof ip  
+6. hping3 --flood ip --> used to flood the target with packets.
+7. hping3 ip -S -p 80 --> used to scan the target for SYN packets on port 80.
+8. hping3 ip -p 80 -c 1 --> used to send only one packet to the target on port 80.
+9. hping3 172.16.240.130 --udp --rand-source --data 500 --> used to send 500 bytes of data to the target with random source ip.
