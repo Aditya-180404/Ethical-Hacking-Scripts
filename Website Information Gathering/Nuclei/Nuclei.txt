@@ -1,0 +1,12 @@
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.8.0
+
+                projectdiscovery.io
+
+
+Nuclei is a web vulnerability scanning tool with a large number of templates for scanning various vulnerabilities.
+
