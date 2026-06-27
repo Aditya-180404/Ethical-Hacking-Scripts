@@ -12,3 +12,6 @@ Nuclei is a web vulnerability scanning tool with a large number of templates for
 
 # Commands
 
+1. nuclei 
+2. nuclei -tl --> used to list all the templates available in nuclei.
+3. nuclei -u ip --> used to set the target.
