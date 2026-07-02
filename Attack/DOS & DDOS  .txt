@@ -15,4 +15,4 @@ When the cache cleaning is slower than the flood this attacks happen.
 
 
 
-# 
+# DDOS Synchronization Flood Attack
