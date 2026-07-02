@@ -5,7 +5,7 @@ When the cache cleaning is slower than the flood this attacks happen.
 
 # XERXES
 
-1. open metasploit framework and find open ports.
+1. open metasploitable2 vm and find open ports.
 2. git clone https://github.com/XCHADXFAQ77X/XERXES.git
 3. chmod 777 xerxes
 4. cd XERXES
@@ -16,3 +16,5 @@ When the cache cleaning is slower than the flood this attacks happen.
 
 
 # DDOS Synchronization Flood Attack
+
+1. open metasploit 
