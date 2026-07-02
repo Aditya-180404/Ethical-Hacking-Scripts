@@ -35,3 +35,17 @@ When the cache cleaning is slower than the flood this attacks happen.
 1. hping3 -S <target_ip> -a <spoof_ip> -p 80 --flood
 2. hping3 -d 65538 -S -p 21 --flood <target_ip>  --> this sends a flood of SYN packets to the target on port 21 with specific bytes of packet
 
+
+
+
+
+
+
+# DOS using LOIC (Low Orbit Ion Cannon) and HOIC (High Orbit Ion Cannon)
+
+1. Download LOIC or HOIC from their official repositories. [ for LOIC: https://github.com/OCEANOFANYTHING/LOIC_GUI.git ]
+2. Open the application.
+3. Enter the target IP address and port number.
+4. Choose the attack method (TCP, UDP, or HTTP).
+5. Set the number of threads and the duration of the attack.
+6. Click the "Start" button to initiate the attack.
