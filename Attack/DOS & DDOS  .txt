@@ -12,3 +12,7 @@ When the cache cleaning is slower than the flood this attacks happen.
 5. gcc -o xerxes xerxes.c
 6. chmod 777 xerxes
 7. ./xerxes <target_ip> <port>
+
+
+
+# 
