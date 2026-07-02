@@ -1,0 +1,8 @@
+DOS and DDOS attacks are a types of temporary attack. When an attacker floods a target system with excessive requests, it can overwhelm the system's resources, causing it to slow down or crash.
+
+When the cache cleaning is slower than the flood this attacks happen.
+
+
+# XERXES
+
+1. open metasploit framework and find open ports.
