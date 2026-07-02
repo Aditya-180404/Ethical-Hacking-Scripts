@@ -17,4 +17,5 @@ Nuclei is a web vulnerability scanning tool with a large number of templates for
 3. nuclei -u ip --> used to set the target.
 4. nuclei --target ip --> used to set the target.
 5. nuclei -u ip -t http/misconfiguration/phpmyadmin/phpmyadmin_misconfiguration.yaml --> used to scan the target for phpmyadmin misconfiguration.
-6.nuclei -u ip -tgl --> used to see the plugins used in that wedserver.
+6. nuclei -u ip -tgl --> used to see the plugins used in that webserver.
+7. nuclei -u ip -tags ftp --> used to find vulnarebility in the  
