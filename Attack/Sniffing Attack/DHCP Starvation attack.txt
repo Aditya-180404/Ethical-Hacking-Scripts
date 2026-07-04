@@ -1,2 +1,11 @@
 This attack downs the dhcp server by sending a large number of fake mac addresses to the dhcp server.This will complete the dhcp pool and dhcp server downs and can't assing new ip addresses.
 
+
+# Commands
+
+1. yersinia -I
+2. h for help
+3. q for quit
+4. F2 for DHCP mode
+5. x for attack
+6.for starvation attack press 1
