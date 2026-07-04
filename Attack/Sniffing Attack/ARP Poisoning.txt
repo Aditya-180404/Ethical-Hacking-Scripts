@@ -1,0 +1,1 @@
+It combines the mac address of the kali and the router . By this it becomes hard to trace the attacker as after the 

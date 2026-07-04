@@ -1,0 +1,9 @@
+It floods the victim's mac address table with facke mac addresses untill the ram of the victim mechine is full and the switch starts to act like a hub. This allows the attacker to sniff all the traffic on the network.
+
+
+# Commands
+
+1. macof -i wln0 -n 10 --> It generates random 10 mac addresses to the victim mechine.
+2. macof -i wln0 --rand --> It generates random mac addresses to the victim mechine.
+3. macof -i wlan0 -s <spoof-ip> -n 10 --> it uses the spoof ip address to generate random mac addresses to the victim mechine. 
+4. macof -i wlan0 -e <demo-mac> -n 5 --> it generates 5 same demo mac addresses to the victim mechine.
