@@ -9,3 +9,29 @@ This attack downs the dhcp server by sending a large number of fake mac addresse
 4. F2 for DHCP mode
 5. x for attack
 6.for starvation attack press 1
+
+
+
+ ┌──────────── Available commands ────────┐                                                        │
+│                                                         │ h      Help screen                     │                                                        │
+│                                                         │ x      eXecute attack                  │                                                        │
+│                                                         │ i      edit Interfaces                 │                                                        │
+│                                                         │ ENTER  information about selected item │                                                        │
+│                                                         │ v      View hex packet dump            │                                                        │
+│                                                         │ d      load protocol Default values    │                                                        │
+│                                                         │ e      Edit packet fields              │                                                        │
+│                                                         │ f      list capture Files              │                                                        │
+│                                                         │ s      Save packets from protocol      │                                                        │
+│                                                         │ S      Save packets from all protocols │                                                        │
+│                                                         │ L      Learn packet from network       │                                                        │
+│                                                         │ M      set Mac spoofing on/off         │                                                        │
+│                                                         │ l      List running attacks            │                                                        │
+│                                                         │ K      Kill all running attacks        │                                                        │
+│                                                         │ c      Clear current protocol stats    │                                                        │
+│                                                         │ C      Clear all protocols stats       │                                                        │
+│                                                         │ g      Go to other protocol screen     │                                                        │
+│                                                         │ Ctrl-L redraw screen                   │                                                        │
+│                                                         │ w      Write configuration file        │                                                        │
+│                                                         │ a      About this proggie              │                                                        │
+│                                                         │ q      Quit (bring da noize)           │                                                        │
+│                                                         └────────────────────────────────────────┘  
