@@ -1,0 +1,2 @@
+This attack downs the dhcp server by sending a large number of fake mac addresses to the dhcp server.This will complete the dhcp pool and dhcp server downs and can't assing new ip addresses.
+
