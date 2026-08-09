@@ -1,0 +1,59 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Change</title>
+</head>
+
+<body>
+
+<form method="post" onsubmit="return changePassword();">
+
+    <label>Current Password:</label>
+    <input type="password" id="password_current" name="password_current" required>
+
+    <label>New Password:</label>
+    <input type="password" id="password_new" name="password_new" required>
+
+    <label>Confirm Password:</label>
+    <input type="password" id="password_conf" name="password_conf" required>
+
+    <button type="submit">Change Password</button>
+
+</form>
+
+<script>
+function changePassword() {
+
+    var password_current =
+        document.getElementById("password_current").value;
+
+    var password_new =
+        document.getElementById("password_new").value;
+
+    var password_conf =
+        document.getElementById("password_conf").value;
+
+    if (password_new !== password_conf) {
+        alert("New password and confirmation do not match.");
+        return false;
+    }
+
+    var url =
+        "http://192.168.1.15/dvwa/vulnerabilities/csrf/" +
+        "?password_current=" + encodeURIComponent(password_current) +
+        "&password_new=" + encodeURIComponent(password_new) +
+        "&password_conf=" + encodeURIComponent(password_conf) +
+        "&Change=Change";
+
+    window.open(url, "_blank");
+
+    return false;
+}
+</script>
+
+</body>
+</html>
+```

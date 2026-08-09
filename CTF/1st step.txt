@@ -1,0 +1,5 @@
+1. go to tryhackme
+2. go to https://tryhackme.com/manage-account/access
+3. download the openvpn configuration file using udp
+4. open terminal
+5. sudo openvpn <path to the downloaded file>
